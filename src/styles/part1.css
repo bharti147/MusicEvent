@@ -104,9 +104,23 @@
   
   .sliderBox {
     width: 80%;
-    background-color: transparent; /* Optional: Set to transparent to clearly see the overlap */
+    background-color: transparent; 
     height: 80%;
     float: right;
-    z-index: 2; /* Higher than .sec to ensure visibility */
+    z-index: 2; 
   }
+
+/* Medium devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+ 
+}
+
+/* Large devices (Desktops, 1024px and up) */
+@media (min-width: 1024px) {
+ 
+}
+
+/* Extra large devices (Large desktops, 1200px and up) */
+@media (min-width: 1200px) {
   
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import Part4 from './Part4'
 
-import Part2 from './Part2'
+import Part3 from './Part3'
 import VerticalBar from './VerticalBar'
 import '../styles/EventComponent.css'
 
@@ -12,7 +12,7 @@ function EventComponent() {
    <Part4/>
   
    <VerticalBar/>
-   <Part2/>
+   <Part3/>
 
   </div>
    

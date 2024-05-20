@@ -21,7 +21,7 @@
     font-size: 4rem;
     line-height: 4rem;
     background-color: #15181B;
-
+word-wrap: break-word;
   }
   h2,p{
     background-color: #15181B;
@@ -82,3 +82,38 @@ align-items: center;
     outline: none;
     margin-right: 2rem;
   }
+  /* Medium devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+  .part2-sec2{
+    width: 80%;
+    height: auto;
+    background-color: #15181B;
+
+    /* border: 1px solid red; */
+justify-content: space-between;
+align-items: center;
+    display: flex;
+    flex-direction:column;
+    padding: 0 0 0 4rem;
+  }
+}
+
+/* Large devices (Desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  .part2-sec2{
+    width: 100%;
+   
+
+    /* border: 1px solid red; */
+justify-content: space-between;
+align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 4rem;
+  }
+}
+
+/* Extra large devices (Large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+}

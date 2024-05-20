@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import '../styles/ToggleButton.css'; // Import your CSS file for styling
+import '../styles/ToggleButton.css'; 
 
 function ToggleButton({ handleToggle }) {
   const [activeOption, setActiveOption] = useState('event');
 
   const handleOptionChange = (option) => {
     setActiveOption(option);
-    handleToggle(option); // Pass the selected option to the parent component
+    handleToggle(option); 
   };
 
   return (   

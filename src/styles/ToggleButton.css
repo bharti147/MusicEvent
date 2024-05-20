@@ -6,6 +6,7 @@
   padding: 1rem;
   background-color: #15181B;
   margin: 0 4rem;
+  
 }
 
 .toggle {
@@ -30,4 +31,19 @@
 .toggle button.active {
   background-color: #484E56;
     color: white;
+}
+
+/* Medium devices (Tablets, 768px and up) */
+@media (min-width: 768px) {
+ 
+}
+
+/* Large devices (Desktops, 1024px and up) */
+@media (min-width: 1024px) {
+ 
+}
+
+/* Extra large devices (Large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
 }
