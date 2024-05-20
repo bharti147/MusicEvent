@@ -1,0 +1,44 @@
+.carousel-container {
+    width: 100%; 
+    /* margin: 0 auto; */
+    height: auto;
+    /* border: 10px solid pink; */
+    background-color: #15181B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .carousel-container div{
+    background-color: #15181B;
+
+  }
+  .sliderCustom{
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .carousel-image {
+    width: 100%;
+    /* height: auto; */
+    margin: 0 2rem;
+    background-color: #15181B;
+
+    /* display: flex; */
+    display: block;
+  }
+  
+  .slick-dots li button:before {
+    color: #000; /* Change dot color if needed */
+  }
+  
+  .slick-prev, .slick-next {
+    color: #000; /* Change arrow color if needed */
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-container {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  

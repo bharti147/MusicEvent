@@ -1,0 +1,112 @@
+/* 
+  .part1 {
+    width: 55%; 
+    height: auto;
+    background-color: #15181B;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .part1 .sec {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    margin: 3rem 0;
+    overflow: hidden;
+    background-color: #15181B;
+
+  }
+  
+  .part1 .sec::before {
+    content: "ASTR IX COLLECTIBLE ASTR IX COLLECTIBLE ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #15181B;
+    color: #444649;
+    font-size: 5vw; 
+    font-weight: 800;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: -1; 
+    animation: slide 20s linear infinite;
+  }
+  
+  @keyframes slide {
+    from { transform: translateX(50%); }
+    to { transform: translateX(-50%); }
+  }
+  
+  .sliderBox {
+ 
+    width: 80%;
+    background-color: #15181B;
+
+    height: 80%;
+    margin: 0 0 0 0;
+    float: right;
+    z-index: 2; 
+  }
+   */
+
+   .part1 {
+    width: 55%; /* Full width */
+    height: auto;
+    background-color: #15181B;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .part1 .sec {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    margin: 3rem 3rem 3rem 0;
+    overflow: hidden;
+    background-color: #15181B;
+    z-index: 1; /* Ensure this container establishes a new stacking context */
+    background-repeat: no-repeat;
+
+  }
+  
+  .part1 .sec::before {
+    content: "ASTR IX COLL ECTI BLE";
+    position: absolute;
+    /* float: left ; */
+    padding: 0 0 0 3rem;
+    top: 0;
+    left: 3rem;
+    /* border: 1px solid red; */
+    
+    right: 0;
+    width: 40%;
+    bottom: 0;
+    background-color: #15181B;
+    color: #444649;
+    font-size: 6vw; 
+    font-weight: 700;
+    white-space: wrap;
+    overflow: visible;
+    z-index: 0; 
+    background-repeat: no-repeat;
+  } 
+
+  
+  
+  @keyframes slide {
+    from { transform: translateX(50%); }
+    to { transform: translateX(-50%); }
+  }
+  
+  .sliderBox {
+    width: 80%;
+    background-color: transparent; /* Optional: Set to transparent to clearly see the overlap */
+    height: 80%;
+    float: right;
+    z-index: 2; /* Higher than .sec to ensure visibility */
+  }
+  

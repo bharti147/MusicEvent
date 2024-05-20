@@ -1,0 +1,19 @@
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: #15181B;
+    /* border: 1px solid red; */
+    align-items: center;
+    padding: 0.5rem;
+}
+.navbar h1{
+    color: #E6B656;
+    background-color: #15181B;
+    font-size:2.5rem;
+}
+.navbar img{
+     background-color: #15181B;
+     width: auto;
+     height: 100%;
+}
